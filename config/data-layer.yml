@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: data-layer
-        image: gummadic/data_layer:1.0.0
+        image: gummadic/data-layer:1.0.0
         ports:
         - containerPort: 5000
