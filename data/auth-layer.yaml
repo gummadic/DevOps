@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: monolith
+  name: auth-layer
   labels:
-    app: monolith
+    app: auth-layer
 spec:
   containers:
-    - name: monolith
+    - name: auth-layer
       image: gummadic/auth_layer:1.0.0
       args:
         - "-http=0.0.0.0:80"
