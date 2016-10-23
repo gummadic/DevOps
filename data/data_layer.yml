@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: monolith
+  name: data_layer
   labels:
-    app: monolith
+    app: data_layer
 spec:
   containers:
-    - name: monolith
+    - name: data_layer
       image: gummadic/data_layer:1.0.0
       args:
         - "-http=0.0.0.0:80"
