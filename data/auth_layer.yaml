@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: auth_layer
+  name: auth-layer
   labels:
-    app: auth_layer
+    app: auth-layer
 spec:
   containers:
     - name: auth_layer
-      image: gummadic/auth_layer:1.0.0
+      image: gummadic/auth-layer:1.0.0
       args:
         - "-http=0.0.0.0:80"
         - "-health=0.0.0.0:81"
