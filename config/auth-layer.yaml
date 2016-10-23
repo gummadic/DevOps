@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: auth-layer
-        image: gummadic/auth-layer:1.0.0
+        image: gummadic/auth-layer:v1
         ports:
         - containerPort: 5000
