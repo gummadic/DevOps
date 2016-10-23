@@ -6,8 +6,13 @@ metadata:
     app: auth-layer
 spec:
   containers:
+<<<<<<< HEAD:data/auth-layer.yaml
     - name: auth-layer
       image: gummadic/auth_layer:1.0.0
+=======
+    - name: auth_layer
+      image: gummadic/auth-layer:1.0.0
+>>>>>>> 3d05baf87fabe35ade6cedd3d31d330c1a2990eb:data/auth_layer.yaml
       args:
         - "-http=0.0.0.0:80"
         - "-health=0.0.0.0:81"
